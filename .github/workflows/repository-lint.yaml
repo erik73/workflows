@@ -5,23 +5,36 @@ name: Lint
 on:
   workflow_call:
 
+permissions:
+  contents: read
+
 jobs:
   json:
     name: JSON Lint
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       - name: 🚀 Run JQ
         run: |
-          shopt -s globstar
-          cat **/*.json | jq '.'
+          shopt -s globstar nullglob
+          for file in **/*.json; do
+            if ! jq '.' "$file" > /dev/null 2>&1; then
+              echo "::error file=${file}::Invalid JSON in ${file}"
+              jq '.' "$file"
+              exit 1
+            fi
+          done
 
   yamllint:
     name: YAMLLint
     runs-on: ubuntu-latest
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       - name: 🚀 Run YAMLLint
-        uses: frenck/action-yamllint@v1.5
+        uses: frenck/action-yamllint@34b4bbcaeabedcfefad6adea8c5bbc42af0e2d47 # v1.5
