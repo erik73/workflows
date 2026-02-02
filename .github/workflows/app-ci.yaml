@@ -11,8 +11,8 @@ on:
         type: string
 
 permissions:
-  actions: write
-  contents: write
+  actions: read
+  contents: read
   packages: read
   security-events: write
 
