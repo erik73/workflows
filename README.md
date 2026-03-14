@@ -96,23 +96,23 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/workflows.svg
-[commits]: https://github.com/hassio-addons/workflows/commits/main
-[contributors]: https://github.com/hassio-addons/workflows/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/y/erik73/workflows.svg
+[commits]: https://github.com/erik73/workflows/commits/main
+[contributors]: https://github.com/erik73/workflows/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
-[github-actions-shield]: https://github.com/hassio-addons/workflows/actions/workflows/workflows-ci.yaml/badge.svg
-[github-actions]: https://github.com/hassio-addons/workflows/actions/workflows/workflows-ci.yaml
+[github-actions-shield]: https://github.com/erik73/workflows/actions/workflows/workflows-ci.yaml/badge.svg
+[github-actions]: https://github.com/erik73/workflows/actions/workflows/workflows-ci.yaml
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
 [github-sponsors]: https://github.com/sponsors/frenck
-[issue]: https://github.com/hassio-addons/workflows/issues
-[license-shield]: https://img.shields.io/github/license/hassio-addons/workflows.svg
+[issue]: https://github.com/erik73/workflows/issues
+[license-shield]: https://img.shields.io/github/license/erik73/workflows.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [reddit]: https://reddit.com/r/homeassistant
-[repository]: https://github.com/hassio-addons/repository
+[repository]: https://github.com/erik73/hassio-addons
